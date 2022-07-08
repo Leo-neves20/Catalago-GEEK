@@ -1,0 +1,146 @@
+
+.cabecalho-pagina{
+
+    width: auto;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00000012;
+
+}
+
+.cabecalho-pagina__container-logo{
+
+    margin-left: 30px;
+}
+
+.cabecalho-pagina__container-logo > img{
+
+    width: 164px;
+    height: 52px;
+
+}
+
+.cabecalho-pagina__container-botoes{
+
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+
+}
+
+.menu-botao{
+
+    display: inline-block;
+    padding: 8px 35px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 8px;
+    
+}
+
+.botao1{
+
+    background-color: #0A99FE1A;
+    color: #0A99FE;
+    margin-left: 24px;
+
+}
+
+.botao1:hover{
+
+    background-color: #0A99FE;
+    color: white;
+}
+
+.botao2{
+
+    margin-left: 24px;
+    background-color: #0A99FE1A;
+    color: #0A99FE;
+
+}
+
+.botao2:hover{
+
+    background-color: #0A99FE;
+    color: white;
+
+}
+
+.sec-bonecos{
+
+    margin-top: 50px;
+
+}
+
+.titulo-secao{
+
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.sec-bonecos__bonecos-secao, .sec-pinturas__pinturas-secao{
+
+    display: flex;
+    height: 280px;
+    width: 4000px;
+    align-items: center;
+    margin: 34px 0px 0px 25px ;
+    overflow: auto;
+    
+}
+
+ul li{
+
+    width: 207px;
+    height: 275px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    margin: 0 17px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 1.3px black;
+
+}
+
+li img{
+
+    width: 100%;
+    height: 155px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+li h3{
+
+    font-size: 20px;
+    margin-top: 27px;
+    font-weight: 500;
+
+}
+
+li span{
+
+    display: block;
+    margin: 27px 0px 27px 0px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.sec-pinturas{
+
+    margin-top: 49px;
+
+}
+
+.sec-pinturas__pinturas-secao{
+
+    margin-bottom: 146px;
+}
